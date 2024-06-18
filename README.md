@@ -3,7 +3,7 @@
 <h3> 👨🏻‍💻 &nbsp;About Me </h3>
 
 - 🤔 &nbsp; My favorite thing to do in development is automate my workflows.
-- 🎓 &nbsp; Enrolled in the M.S. in Internet of Things program at Florida International Univeristy.
+- 🎓 &nbsp; I have a Master's degree in IoT from Florida International Univeristy.
 - 💼 &nbsp; Currently working as a DevOps Engineer at Assurant, Inc.
 - 🌱 &nbsp; I absolutely love learning everything revolving around development.
 - ✍️ &nbsp; I run an online community called Chill Club and you'll probably see a lot of code related to that here on my page.
