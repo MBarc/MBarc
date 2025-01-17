@@ -7,7 +7,7 @@
 - 💼 &nbsp; Currently working as a DevOps Engineer at Assurant, Inc.
 - 🌱 &nbsp; I absolutely love learning everything revolving around development.
 - ✍️ &nbsp; I run an online community called Chill Club and you'll probably see a lot of code related to that here on my page.
-- 👻 &nbsp; One of my hobbies is Ghost Hunting. I have some repositories showcasing the devices I've made.
+- 👻 &nbsp; One of my hobbies is Ghost Hunting and another is IoT development. I have some repositories showing devices that I've made that mix both of those passions.
 
 <h3> 🛠 &nbsp;Tech Stack</h3>
 
