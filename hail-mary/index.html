@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Eridian Translator — a Project Hail Mary fan project</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Eridian Translator</h1>
+    <p class="tagline">Question? <em>A Project Hail Mary fan project.</em></p>
+  </header>
+
+  <main>
+    <nav class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" data-tab="speak">English &rarr; Eridian</button>
+      <button role="tab" aria-selected="false" data-tab="listen">Eridian &rarr; English</button>
+      <button role="tab" aria-selected="false" data-tab="vocab">Vocabulary</button>
+    </nav>
+
+    <section id="tab-speak" class="tab-panel active">
+      <h2>Speak Eridian</h2>
+      <p>Type an English word Grace and Rocky have agreed on. The translator will play it as a five-note chord.</p>
+      <form id="speak-form">
+        <input id="speak-input" type="text" list="vocab-list" placeholder="yes, question, friend, science..." autocomplete="off" />
+        <datalist id="vocab-list"></datalist>
+        <button type="submit">Play chord</button>
+      </form>
+      <div id="speak-output" class="output" aria-live="polite"></div>
+    </section>
+
+    <section id="tab-listen" class="tab-panel">
+      <h2>Listen to Rocky</h2>
+      <p>Grant microphone access, then play an Eridian chord nearby (from another device running this app, or press a vocabulary word below). The translator will match the dominant frequencies.</p>
+      <div class="listen-controls">
+        <button id="listen-toggle">Start listening</button>
+        <span id="listen-status" class="status">Idle</span>
+      </div>
+      <div id="listen-output" class="output" aria-live="polite"></div>
+      <canvas id="spectrum" width="800" height="160" aria-hidden="true"></canvas>
+    </section>
+
+    <section id="tab-vocab" class="tab-panel">
+      <h2>Shared vocabulary</h2>
+      <p>Click any word to play its chord.</p>
+      <ul id="vocab-grid"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with the Web Audio API. No server, no tracking. Inspired by Andy Weir's <em>Project Hail Mary</em>.</p>
+  </footer>
+
+  <script src="js/vocabulary.js"></script>
+  <script src="js/synth.js"></script>
+  <script src="js/listener.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

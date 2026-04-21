@@ -1,0 +1,195 @@
+:root {
+  --bg: #05060d;
+  --panel: #0d1020;
+  --panel-2: #141936;
+  --ink: #e8ecf7;
+  --muted: #9aa3c7;
+  --accent: #6ee7ff;
+  --accent-2: #ffb86b;
+  --danger: #ff6b8a;
+  --radius: 10px;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, #1a2150 0%, transparent 60%),
+    radial-gradient(1000px 800px at 110% 120%, #2c0b3a 0%, transparent 55%),
+    var(--bg);
+  color: var(--ink);
+  min-height: 100vh;
+}
+
+header {
+  padding: 2.5rem 1.5rem 1rem;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.25rem;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  text-shadow: 0 0 24px rgba(110, 231, 255, 0.35);
+}
+.tagline {
+  color: var(--muted);
+  margin-top: 0.4rem;
+}
+.tagline em { color: var(--accent-2); font-style: normal; }
+
+main {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem 3rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.25rem;
+  background: var(--panel);
+  padding: 0.3rem;
+  border-radius: var(--radius);
+  margin-bottom: 1rem;
+  border: 1px solid #1c2450;
+}
+.tabs button {
+  flex: 1;
+  padding: 0.7rem 0.6rem;
+  background: transparent;
+  color: var(--muted);
+  border: 0;
+  border-radius: calc(var(--radius) - 2px);
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.tabs button[aria-selected="true"] {
+  background: var(--panel-2);
+  color: var(--ink);
+  box-shadow: inset 0 0 0 1px #2a3478;
+}
+
+.tab-panel {
+  display: none;
+  background: var(--panel);
+  border: 1px solid #1c2450;
+  border-radius: var(--radius);
+  padding: 1.25rem 1.25rem 1.5rem;
+}
+.tab-panel.active { display: block; }
+
+.tab-panel h2 {
+  margin-top: 0;
+  color: var(--accent);
+}
+.tab-panel p { color: var(--muted); }
+
+form#speak-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+input[type="text"] {
+  flex: 1;
+  padding: 0.7rem 0.9rem;
+  border-radius: var(--radius);
+  border: 1px solid #2a3478;
+  background: #080c22;
+  color: var(--ink);
+  font-size: 1rem;
+}
+input[type="text"]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+button {
+  cursor: pointer;
+  font-size: 0.95rem;
+  padding: 0.7rem 1rem;
+  border-radius: var(--radius);
+  border: 1px solid #2a3478;
+  background: linear-gradient(180deg, #1a2250, #121838);
+  color: var(--ink);
+  transition: transform 0.05s, background 0.15s;
+}
+button:hover { background: linear-gradient(180deg, #22306a, #161e47); }
+button:active { transform: translateY(1px); }
+
+.listen-controls {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin: 0.5rem 0 1rem;
+}
+.status {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.status.active { color: var(--accent); }
+.status.error { color: var(--danger); }
+
+.output {
+  min-height: 3rem;
+  padding: 0.9rem 1rem;
+  background: #080c22;
+  border-radius: var(--radius);
+  border: 1px dashed #2a3478;
+  margin-top: 1rem;
+  font-size: 1.05rem;
+}
+.output .word {
+  color: var(--accent-2);
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.output .chord {
+  color: var(--muted);
+  font-family: ui-monospace, Menlo, monospace;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+}
+.output .timestamp {
+  color: var(--muted);
+  font-size: 0.75rem;
+  margin-left: 0.4rem;
+}
+
+canvas#spectrum {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 160px;
+  margin-top: 1rem;
+  background: #060918;
+  border-radius: var(--radius);
+  border: 1px solid #1c2450;
+}
+
+ul#vocab-grid {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 0.5rem;
+}
+ul#vocab-grid li button {
+  width: 100%;
+  text-align: left;
+  padding: 0.6rem 0.75rem;
+  font-size: 0.95rem;
+}
+
+footer {
+  text-align: center;
+  color: var(--muted);
+  padding: 1.5rem 1rem 3rem;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 520px) {
+  header h1 { font-size: 1.7rem; }
+  .tabs button { font-size: 0.8rem; padding: 0.6rem 0.3rem; }
+  form#speak-form { flex-direction: column; }
+}
