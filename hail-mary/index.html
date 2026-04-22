@@ -21,30 +21,44 @@
 
     <section id="tab-speak" class="tab-panel active">
       <h2>Speak Eridian</h2>
-      <p>Type an English word Grace and Rocky have agreed on. The translator will play it as a five-note chord.</p>
+      <p>Type any English text. If it is in the shared vocabulary it plays as a single chord; otherwise the translator spells it letter by letter.</p>
       <form id="speak-form">
-        <input id="speak-input" type="text" list="vocab-list" placeholder="yes, question, friend, science..." autocomplete="off" />
+        <input id="speak-input" type="text" list="vocab-list" placeholder="Rocky, astrophage, or type anything to spell..." autocomplete="off" />
         <datalist id="vocab-list"></datalist>
-        <button type="submit">Play chord</button>
+        <button type="submit">Play</button>
       </form>
       <div id="speak-output" class="output" aria-live="polite"></div>
     </section>
 
     <section id="tab-listen" class="tab-panel">
       <h2>Listen to Rocky</h2>
-      <p>Grant microphone access, then play an Eridian chord nearby (from another device running this app, or press a vocabulary word below). The translator will match the dominant frequencies.</p>
+      <p>Start listening, then play a chord nearby. The translator matches whole-word chords directly. When it hears the SPELL marker, it accumulates letter chords until silence or END.</p>
       <div class="listen-controls">
         <button id="listen-toggle">Start listening</button>
         <span id="listen-status" class="status">Idle</span>
       </div>
+      <div id="spell-box" class="spell-box"></div>
       <div id="listen-output" class="output" aria-live="polite"></div>
-      <canvas id="spectrum" width="800" height="160" aria-hidden="true"></canvas>
+      <canvas id="spectrum" width="1200" height="180" aria-hidden="true"></canvas>
+      <div class="legend">
+        <span class="legend-pink">Markers</span>
+        <span class="legend-cyan">Word chords</span>
+        <span class="legend-amber">Letter chords</span>
+      </div>
     </section>
 
     <section id="tab-vocab" class="tab-panel">
       <h2>Shared vocabulary</h2>
-      <p>Click any word to play its chord.</p>
+      <p>Click any word to play its 5-note chord.</p>
       <ul id="vocab-grid"></ul>
+
+      <h3>Spelling alphabet</h3>
+      <p>3-note chords in the upper band. Used to spell anything outside the curated vocabulary.</p>
+      <ul id="letter-grid" class="letter-grid"></ul>
+
+      <h3>Markers</h3>
+      <p>2-note chords in the lower band. Frame a spelled word or modify meaning.</p>
+      <ul id="marker-grid" class="marker-grid"></ul>
     </section>
   </main>
 

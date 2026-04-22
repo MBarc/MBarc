@@ -169,7 +169,7 @@ canvas#spectrum {
 ul#vocab-grid {
   list-style: none;
   padding: 0;
-  margin: 1rem 0 0;
+  margin: 1rem 0 1.25rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
   gap: 0.5rem;
@@ -180,6 +180,96 @@ ul#vocab-grid li button {
   padding: 0.6rem 0.75rem;
   font-size: 0.95rem;
 }
+
+ul.letter-grid, ul.marker-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 1.5rem;
+  display: grid;
+  gap: 0.35rem;
+}
+ul.letter-grid {
+  grid-template-columns: repeat(auto-fill, minmax(52px, 1fr));
+}
+ul.marker-grid {
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+}
+button.letter-btn {
+  width: 100%;
+  padding: 0.55rem 0;
+  font-family: ui-monospace, Menlo, monospace;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--accent-2);
+  border-color: #4a3920;
+  background: linear-gradient(180deg, #2a2010, #1a1308);
+}
+button.letter-btn:hover {
+  background: linear-gradient(180deg, #3a2d18, #22190b);
+}
+button.marker-btn {
+  width: 100%;
+  padding: 0.55rem 0.5rem;
+  color: var(--danger);
+  border-color: #4a2030;
+  background: linear-gradient(180deg, #2a1020, #1a0814);
+  font-family: ui-monospace, Menlo, monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+}
+button.marker-btn:hover {
+  background: linear-gradient(180deg, #3a1630, #22101c);
+}
+
+.tab-panel h3 {
+  margin-top: 1.5rem;
+  color: var(--accent-2);
+  font-size: 1.05rem;
+}
+
+.spell-box {
+  min-height: 1.4rem;
+  padding: 0.4rem 0.8rem;
+  font-family: ui-monospace, Menlo, monospace;
+  font-size: 1rem;
+  color: var(--muted);
+}
+.spell-box.active {
+  color: var(--accent-2);
+}
+
+.output .marker {
+  color: var(--danger);
+  font-family: ui-monospace, Menlo, monospace;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+.output .spelled-tag {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-left: 0.25rem;
+}
+
+.legend {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+}
+.legend-pink::before, .legend-cyan::before, .legend-amber::before {
+  content: "";
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-right: 0.35rem;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+.legend-pink::before { background: rgba(255, 107, 138, 0.5); }
+.legend-cyan::before { background: rgba(110, 231, 255, 0.5); }
+.legend-amber::before { background: rgba(255, 184, 107, 0.5); }
 
 footer {
   text-align: center;
