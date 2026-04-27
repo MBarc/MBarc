@@ -32,6 +32,10 @@ Trying to land in space-adjacent engineering. If your team works on mission data
 ![Stats](https://github-readme-stats.vercel.app/api?username=MBarc&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=tokyonight)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MBarc&layout=compact&hide_border=true&theme=tokyonight)
 
-![Snake](https://raw.githubusercontent.com/MBarc/MBarc/output/github-contribution-grid-snake-dark.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MBarc/MBarc/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MBarc/MBarc/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation of GitHub contribution graph" src="https://raw.githubusercontent.com/MBarc/MBarc/output/github-contribution-grid-snake.svg" />
+</picture>
 
 </div>
