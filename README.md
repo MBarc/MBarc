@@ -8,9 +8,11 @@
 
 ### About me
 
-**DevOps Engineer @ Assurant** · **M.S. Internet of Things**, Florida International University
+DevOps Engineer at Assurant. I work mostly in Azure, Ansible, and Python automation around Dynatrace observability. M.S. in Internet of Things from FIU.
 
-I build automation, distributed systems, and embedded hardware — bridging the gap between cloud infrastructure and physical devices. Particularly interested in applying DevOps and data-pipeline patterns to scientific computing and space mission data.
+Outside of work I build things involving sensors, telescopes, or both. Right now I'm shipping [Lumina](https://github.com/MBarc/Lumina-Exoplanet-Hunter) (a distributed ML pipeline for exoplanet detection) and [DOSM](https://github.com/MBarc/DevOps-Suite-Manager) (a self-hosted ops console with browser SSH and an approval-gated LLM agent).
+
+Trying to land in space-adjacent engineering. If your team works on mission data, scientific computing, or weird sensor-to-cloud problems, get in touch.
 
 - 📫 michaelb4185@gmail.com
 - 🔗 [linkedin.com/in/michaelbarcelo](https://www.linkedin.com/in/michaelbarcelo/)
