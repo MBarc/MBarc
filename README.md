@@ -1,47 +1,46 @@
-<h2> Hey there! I'm Michael.</h2>
+<h1 align="center">Hi, I'm Michael Barcelo 👋</h1>
 
-<h3> 👨🏻‍💻 &nbsp;About Me </h3>
+  <p align="center">
+    <a href="https://github.com/MBarc">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=58A6FF&ce
+  nter=true&vCenter=true&width=600&lines=DevOps+Engineer+%C2%B7+Cloud+%26+On-Prem+Automation;IoT+Researcher+%C2%B7+M
+  .S.+from+FIU;Building+for+Space%2C+Science%2C+and+Strange+Sensors" alt="Typing SVG" />
+    </a>
+  </p>
 
-- 🤔 &nbsp; My favorite thing to do in development is automate my workflows.
-- 🎓 &nbsp; I have a Master's degree in IoT from Florida International Univeristy.
-- 💼 &nbsp; Currently working as a DevOps Engineer at Assurant, Inc.
-- 🌱 &nbsp; I absolutely love learning everything revolving around development.
-- ✍️ &nbsp; I run an online community called Chill Club and you'll probably see a lot of code related to that here on my page.
-- 👻 &nbsp; One of my hobbies is Ghost Hunting and another is IoT development. I have some repositories showing devices that I've made that mix both of those passions.
+  ---
 
-<h3> 🛠 &nbsp;Tech Stack</h3>
+  **DevOps Engineer @ Assurant** · **M.S. Internet of Things**, Florida International University
 
-- 💻 &nbsp;
-  ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
-  ![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=Java&logoColor=007396)
-  ![C++](https://img.shields.io/badge/-C++-333333?style=flat&logo=C%2B%2B&logoColor=00599C)
-  ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
-- 🌐 &nbsp;
-  ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
-  ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
-  ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
-  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-333333?style=flat&logo=bootstrap&logoColor=563D7C)
-- 🛢 &nbsp;
-  ![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
-  ![MongoDB](https://img.shields.io/badge/-MongoDB-333333?style=flat&logo=mongodb)
-- ⚙️ &nbsp;
-  ![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
-  ![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
-  ![Markdown](https://img.shields.io/badge/-Markdown-333333?style=flat&logo=markdown)
-- 🔧 &nbsp;
-  ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
-  ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
-  ![Eclipse](https://img.shields.io/badge/-Eclipse-333333?style=flat&logo=eclipse-ide&logoColor=2C2255)
-  ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
-  ![Notepad++](https://img.shields.io/badge/NetBeansIDE-1B6AC6.svg?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white)
-  ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)
+  I build automation, distributed systems, and embedded hardware — bridging the gap between cloud infrastructure and
+   physical devices. Particularly interested in applying DevOps and data-pipeline patterns to scientific computing
+  and space mission data.
 
-<br/>
+  📫 michaelb4185@gmail.com &nbsp;·&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/michaelbarcelo/)
 
-<a href="https://github.com/AVS1508">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MBarc&theme=buefy&show_icons=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MBarc&theme=buefy&layout=compact" />
-</a>
+  ---
 
-<br/>
+  ### 🛠️ Tech I work with
 
+  **Languages** &nbsp; Python · PowerShell · JavaScript / TypeScript · C++ · PHP · Bash · SQL
+  **Cloud & DevOps** &nbsp; Azure · Docker · Ansible / Ansible Tower · GitHub Actions · Azure DevOps · Octopus
+  Deploy · ServiceNow · Linux (RHEL/CentOS) · Windows Server
+  **Observability** &nbsp; Dynatrace
+  **Data** &nbsp; SQL Server · Oracle · MongoDB · MySQL · SQLite
+  **Embedded / IoT** &nbsp; ESP32 · Arduino · sensor integration (IMU)
+
+  ---
+
+  ### 📊 Activity
+
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=MBarc&show_icons=true&hide_border=true&include_all
+  _commits=true&count_private=true&theme=tokyonight" height="165" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MBarc&layout=compact&hide_border=true&t
+  heme=tokyonight" height="165" />
+  </p>
+
+  <p align="center">
+    <img src="https://raw.githubusercontent.com/MBarc/MBarc/output/github-contribution-grid-snake-dark.svg"
+  alt="Snake contribution graph" />
+  </p>
