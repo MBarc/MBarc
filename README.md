@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=DevOps+%C2%B7+Software+%C2%B7+IoT+Engineer+%7C+Automating+The+Future)](https://github.com/MBarc)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=DevOps+%C2%B7+Software+%C2%B7+IoT+Engineer+%7C+Automating+The+Future)](https://github.com/MBarc)
 
 </div>
 
