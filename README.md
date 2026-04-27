@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=DevOps+++Software+++IoT+Engineer+%7C+Automating+The+Future)](https://github.com/MBarc)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=DevOps+%C2%B7+Software+%C2%B7+IoT+Engineer+%7C+Automating+The+Future)](https://github.com/MBarc)
 
 </div>
 
@@ -29,5 +29,7 @@ I build automation, distributed systems, and embedded hardware — bridging the 
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=MBarc&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=tokyonight)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MBarc&layout=compact&hide_border=true&theme=tokyonight)
+
+![Snake](https://raw.githubusercontent.com/MBarc/MBarc/output/github-contribution-grid-snake-dark.svg)
 
 </div>
