@@ -8,22 +8,21 @@
 
 ### About me
 
-DevOps Engineer at Assurant. I work mostly in Azure, Ansible, and Python automation around Dynatrace observability. M.S. in Internet of Things from FIU.
+I believe in building tools and systems that provide value by helping others in some way, no matter how small the problem may be. I gravitate toward areas I don't know yet, because that's where the learning happens.
 
-Outside of work I build things involving sensors, telescopes, or both. Right now I'm shipping [Lumina](https://github.com/MBarc/Lumina-Exoplanet-Hunter) (a distributed ML pipeline for exoplanet detection) and [DOSM](https://github.com/MBarc/DevOps-Suite-Manager) (a self-hosted ops console with browser SSH and an approval-gated LLM agent).
-
-Trying to land in space-adjacent engineering. If your team works on mission data, scientific computing, or weird sensor-to-cloud problems, get in touch.
+Right now I'm shipping [Lumina](https://github.com/MBarc/Lumina-Exoplanet-Hunter) and [DOSM](https://github.com/MBarc/DevOps-Suite-Manager).
 
 - 📫 michaelb4185@gmail.com
 - 🔗 [linkedin.com/in/michaelbarcelo](https://www.linkedin.com/in/michaelbarcelo/)
 
-### Tech I work with
+### Tech I work with frequently
 
-- **Languages** — Python · PowerShell · JavaScript / TypeScript · C++ · PHP · Bash · SQL
-- **Cloud & DevOps** — Azure · Docker · Ansible / Ansible Tower · GitHub Actions · Azure DevOps · Octopus Deploy · ServiceNow · Linux (RHEL / CentOS) · Windows Server
-- **Observability** — Dynatrace
-- **Data** — SQL Server · Oracle · MongoDB · MySQL · SQLite
-- **Embedded / IoT** — ESP32 · Arduino · sensor integration (IMU)
+- **Languages**: Python · PowerShell · JavaScript / TypeScript · C++ · PHP · Bash · SQL
+- **Cloud & DevOps**: Azure · Docker · AWS · Ansible / Ansible Tower · GitHub Actions · Azure DevOps · Octopus Deploy · Linux (RHEL / CentOS) · Windows Server
+- **Observability**: Dynatrace, Data Dog, ServiceNow
+- **Data**: SQL Server · Oracle · MongoDB · MySQL · SQLite · PostgreSQL
+- **Embedded / IoT**: ESP32 · Arduino · Raspberry Pi
+**Note**: If you see something missing that you're specifically looking for. Let's chat. I most likely have transferable skills and thrive on learning new things.
 
 <div align="center">
 
