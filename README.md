@@ -8,21 +8,24 @@
 
 ### About me
 
-I believe in building tools and systems that provide value by helping others in some way, no matter how small the problem may be. I gravitate toward areas I don't know yet, because that's where the learning happens.
+DevOps Engineer at Assurant. I work mostly in Azure, Ansible, and Python automation around Dynatrace observability. M.S. in Internet of Things from FIU.
 
-Right now I'm shipping [Lumina](https://github.com/MBarc/Lumina-Exoplanet-Hunter) and [DOSM](https://github.com/MBarc/DevOps-Suite-Manager).
+I like building tools that make someone's day a little easier, even when the problem is small. I gravitate toward areas I don't know yet, which is how I ended up writing [Lumina](https://github.com/MBarc/Lumina-Exoplanet-Hunter) (a distributed ML pipeline for exoplanet detection) and [DOSM](https://github.com/MBarc/DevOps-Suite-Manager) (a self-hosted ops console with browser SSH and an approval-gated LLM agent).
+
+Trying to land in space-adjacent engineering. If your team works on mission data, scientific computing, or weird sensor-to-cloud problems, get in touch.
 
 - 📫 michaelb4185@gmail.com
 - 🔗 [linkedin.com/in/michaelbarcelo](https://www.linkedin.com/in/michaelbarcelo/)
 
-### Tech I work with frequently
+### Tech I use
 
 - **Languages**: Python · PowerShell · JavaScript / TypeScript · C++ · PHP · Bash · SQL
 - **Cloud & DevOps**: Azure · Docker · AWS · Ansible / Ansible Tower · GitHub Actions · Azure DevOps · Octopus Deploy · Linux (RHEL / CentOS) · Windows Server
-- **Observability**: Dynatrace, Data Dog, ServiceNow
+- **Observability**: Dynatrace · Datadog · ServiceNow
 - **Data**: SQL Server · Oracle · MongoDB · MySQL · SQLite · PostgreSQL
 - **Embedded / IoT**: ESP32 · Arduino · Raspberry Pi
-**Note**: If you see something missing that you're specifically looking for. Let's chat. I most likely have transferable skills and thrive on learning new things.
+
+**Don't see something?** Ask — I likely have transferable skills and pick things up fast.
 
 <div align="center">
 
