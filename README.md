@@ -12,7 +12,7 @@ DevOps Engineer at Assurant. I work mostly in Azure, Ansible, and Python automat
 
 I like building tools that make someone's day a little easier, even when the problem is small. I gravitate toward areas I don't know yet, which is how I ended up writing [Lumina](https://github.com/MBarc/Lumina-Exoplanet-Hunter) (a distributed ML pipeline for exoplanet detection) and [DOSM](https://github.com/MBarc/DevOps-Suite-Manager) (a self-hosted ops console with browser SSH and an approval-gated LLM agent).
 
-Trying to land in space-adjacent engineering. If your team works on mission data, scientific computing, or weird sensor-to-cloud problems, get in touch.
+Open to engineering work where DevOps meets real hardware, messy data, or scientific computing. If your team has problems at any of those intersections, get in touch.
 
 - 📫 michaelb4185@gmail.com
 - 🔗 [linkedin.com/in/michaelbarcelo](https://www.linkedin.com/in/michaelbarcelo/)
