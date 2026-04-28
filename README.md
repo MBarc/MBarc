@@ -25,8 +25,6 @@ Trying to land in space-adjacent engineering. If your team works on mission data
 - **Data** — SQL Server · Oracle · MongoDB · MySQL · SQLite
 - **Embedded / IoT** — ESP32 · Arduino · sensor integration (IMU)
 
-### Activity
-
 <div align="center">
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Rotating_earth_%28large%29_transparent.gif" width="280" alt="Rotating Earth" />
