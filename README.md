@@ -8,9 +8,7 @@
 
 ### About me
 
-I believe in building tools and systems that provide value by helping others in some way, no matter how small the problem may be. I gravitate toward areas I don't know yet, which is how I ended up writing [Lumina](https://github.com/MBarc/Lumina-Exoplanet-Hunter) and [DOSM](https://github.com/MBarc/DevOps-Suite-Manager).
-
-Open to engineering work where DevOps meets real hardware, messy data, or scientific computing. If your team has problems at any of those intersections, get in touch.
+I believe in building tools and systems that provide value by helping others in some way, no matter how small the problem may be. I gravitate toward areas I don't know yet, which is how I ended up creating all of my pinned repos below.
 
 - 📫 michaelb4185@gmail.com
 - 🔗 [linkedin.com/in/michaelbarcelo](https://www.linkedin.com/in/michaelbarcelo/)
